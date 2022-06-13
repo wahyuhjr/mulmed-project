@@ -1,0 +1,17 @@
+.head {
+    background-color: #EBEBEB;
+    font-family: 'Prata', serif;
+}
+
+.navbar {
+    background-color: #EBEBEB;
+}
+
+.title {
+    letter-spacing: 2px;
+    /* line-height: 70px; */
+}
+
+.penjelasan {
+    font-family: 'Prata', serif;
+}
