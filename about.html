@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/tailwindcss@^2.2.7/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="about.css" rel="stylesheet">
@@ -59,17 +61,17 @@
         </div>
     </section> -->
 
-    <section class="bagian-2 min-h-screen ">
+    <section class="bagian-2 min-h-screen">
         <div class="container">
             <div class="row">
                 <div class="penjelasan">
-                    <h1 class="text-center text-7xl mt-20">
+                    <h1 class="text-center text-7xl mt-20" data-aos="fade-down" data-aos-duration="1000">
                         Apa yang kita bahas?
                     </h1>
-                    <p class="mx-auto text-center max-w-7xl mt-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eum aperiam inventore placeat iusto perspiciatis vero officia animi expedita, dolore consequuntur deserunt quo doloremque repellendus deleniti est nisi aspernatur!
+                    <p class="mx-auto text-center max-w-7xl mt-20" data-aos="fade-down" data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eum aperiam inventore placeat iusto perspiciatis vero officia animi expedita, dolore consequuntur deserunt quo doloremque repellendus deleniti est nisi aspernatur!
                         Aut. lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eum aperiam inventore placeat iusto perspiciatis vero officia animi expedita, dolore consequuntur deserunt quo doloremque repellendus deleniti est nisi aspernatur!
                     </p>
-                    <iframe class="mt-20 mx-auto flex justify-center rounded-xl md:w-1/2 md:h-3/4" src="https://www.youtube.com/embed/hNshcWPwzGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    <iframe data-aos="fade-up" data-aos-duration="1500" class="mt-20 mx-auto flex justify-center rounded-xl md:w-1/2 md:h-3/4" src="https://www.youtube.com/embed/hNshcWPwzGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
             </div>
@@ -81,7 +83,9 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-
+    <script>
+        AOS.init();
+    </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
